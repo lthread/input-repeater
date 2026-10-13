@@ -9,7 +9,7 @@ license=('MIT')
 depends=('python' 'python-evdev' 'python-dbus' 'python-gobject' 'python-pyqt6' 'kwin' 'libnotify')
 install=$pkgname.install
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')  # після публікації тегу v$pkgver: updpkgsums && makepkg --printsrcinfo > .SRCINFO
+sha256sums=('46e3a116ad90d93aff73fa33fdf7ccd8190209f13aa706189c978f06a98043f3')
 
 package() {
     cd "$pkgname-$pkgver"
