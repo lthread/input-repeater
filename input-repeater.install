@@ -1,0 +1,7 @@
+post_install() {
+    echo "==> Input Repeater reads the keyboard and mouse from /dev/input."
+    echo "==> Add yourself to the input group and log in again:"
+    echo "==>     sudo usermod -aG input \$USER"
+    echo "==> Input Repeater читає клавіатуру й мишу з /dev/input."
+    echo "==> Додайте себе до групи input і перезайдіть у сеанс (команда вище)."
+}

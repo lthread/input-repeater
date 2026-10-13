@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Input Repeater
+GenericName=Macro Recorder
+GenericName[uk]=Запис і повтор дій
+Comment=Record and replay mouse and keyboard actions
+Comment[uk]=Запис і повтор дій миші та клавіатури
+Exec=input-repeater
+Icon=input-repeater
+Terminal=false
+Categories=Utility;
+Keywords=macro;automation;record;replay;mouse;keyboard;макрос;запис;повтор;

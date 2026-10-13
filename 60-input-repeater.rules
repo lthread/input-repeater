@@ -1,0 +1,3 @@
+# Input Repeater відтворює дії через віртуальні пристрої uinput.
+# uaccess дає доступ до /dev/uinput користувачу, який зараз працює за комп'ютером (активний сеанс).
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
